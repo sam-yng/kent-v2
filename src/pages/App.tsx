@@ -1,12 +1,16 @@
-import React from 'react'
-import '../css/index.css'
+import React from "react";
+import "../css/index.css";
+import { Routes, Route } from "react-router-dom";
+import { Nav } from "../components/Nav";
 
-function App() {
+export const App: React.FC = () => {
   return (
     <>
-      <div></div>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<></>} />
+        <Route path="/about" element={<></>} />
+      </Routes>
     </>
-  )
-}
-
-export default App
+  );
+};
