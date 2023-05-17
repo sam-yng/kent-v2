@@ -1,9 +1,14 @@
+import classNames from "classnames";
 import React from "react";
 
 type ButtonProps = {
   text: string;
+  display?: string;
 };
 
-export const Button: React.FC<ButtonProps> = ({ text }: ButtonProps) => {
-  return <button className="border-2 border-black">{text}</button>;
+export const Button: React.FC<ButtonProps> = ({
+  text,
+  display,
+}: ButtonProps) => {
+  return <button className={classNames(`${display}`)}>{text}</button>;
 };

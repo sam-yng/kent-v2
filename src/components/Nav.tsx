@@ -1,13 +1,38 @@
 import React from "react";
-import valuersLogo from "../assets/logos/logo.svg";
 import { Link } from "react-router-dom";
 import { Button } from "../components/Button";
+import valuersLogo from "../assets/logos/logo.svg";
+import classNames from "classnames";
 
 export const Nav: React.FC = () => {
   return (
-    <nav className="flex flex-row fixed items-center justify-between">
-      <img src={valuersLogo} />
-      <ul className="flex flex-row">
+    <nav
+      className={classNames(
+        "flex",
+        "flex-row",
+        "items-center",
+        "my-8",
+        "bg-white",
+        "mx-36",
+        "justify-between"
+      )}
+    >
+      <Link className="md:min-w-10" to="/">
+        <img src={valuersLogo} />
+      </Link>
+      <ul
+        className={classNames(
+          "md:flex",
+          "flex-row",
+          "text-lg",
+          "text-center",
+          "font-playfairmedium",
+          "items-center",
+          "ml-auto",
+          "space-x-16",
+          "hidden"
+        )}
+      >
         <Link to="/about">
           <li>About</li>
         </Link>
@@ -18,13 +43,22 @@ export const Nav: React.FC = () => {
           <li>SMSF</li>
         </Link>
         <Link to="/services">
-          <li>Valuation Services</li>
+          <li>
+            Valuation<br></br>Services
+          </li>
         </Link>
         <Link to="/request">
-          <li>Valuation Request</li>
+          <li>
+            Valuation<br></br>Request
+          </li>
         </Link>
       </ul>
-      <Button text="Enquire Now" />
+      <Link
+        className="ml-auto hidden md:block border-2 py-2 px-4 rounded-lg bg-sky-900 border-bg-sky-900"
+        to="/request"
+      >
+        <Button display="font-playfairbold text-white" text="Enquire Now" />
+      </Link>
     </nav>
   );
 };

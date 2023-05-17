@@ -3,7 +3,17 @@ export default {
   content: ["./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        playfairsemi: ["playfairsemi"],
+        playfairbold: ["playfairbold"],
+        playfairextrabold: ["playfairextrabold"],
+        playfairmedium: ["playfairmedium"],
+        roboto: ["roboto"],
+        playfairregular: ["playfairregular"],
+        circular: ["circular"],
+      },
+    },
   },
   plugins: [],
 }

@@ -1,3 +1,113 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home-bg {
+	background-image: url("../assets/images/Hero-image-main.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.opera-bg {
+    background-image: url(../assets/images/Opera-house-main.png);
+    background-position: left bottom;
+
+    background-repeat: no-repeat;
+}
+
+.footer-bg {
+    background-image: url(../assets/images/Footer-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partner-bg {
+    background-image: url(../assets/images/Behind-form.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smsf-bg {
+    background-image: url(../assets/images/SMSF-Skyline.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-bg {
+    background-image: url(../assets/images/smf-blue.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-bg {
+    background-image: url(../assets/images/Blue-Image-Aboutus.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about2-bg {
+    background-image: url(../assets/images/House-Aboutus.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 130vh;
+}
+
+.service-bg {
+    background-image: url(../assets/images/VS-House.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frame-bg {
+    background-image: url(../assets/images/Skyline-blue.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "playfairregular";
+    src: url("../assets/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "playfairbold";
+    src: url("../assets/fonts/PlayfairDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: "playfairmedium";
+    src: url("../assets/fonts/PlayfairDisplay-Medium.ttf");
+}
+
+@font-face {
+    font-family: "playfairitalic";
+    src: url("../assets/fonts/PlayfairDisplay-Italic.ttf");
+}
+
+@font-face {
+    font-family: "playfairsemi";
+    src: url("../assets/fonts/PlayfairDisplay-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "playfairextrabold";
+    src: url("../assets/fonts/PlayfairDisplay-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "circular";
+    src: url("../assets/fonts/CircularStd-Medium.otf");
+}

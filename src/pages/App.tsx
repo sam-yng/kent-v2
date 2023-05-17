@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/index.css";
 import { Routes, Route } from "react-router-dom";
+import { Home } from "./Home";
 import { Nav } from "../components/Nav";
 
 export const App: React.FC = () => {
@@ -8,7 +9,7 @@ export const App: React.FC = () => {
     <>
       <Nav />
       <Routes>
-        <Route path="/" element={<></>} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<></>} />
       </Routes>
     </>
