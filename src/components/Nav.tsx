@@ -13,7 +13,7 @@ export const Nav: React.FC = () => {
         "items-center",
         "my-8",
         "bg-white",
-        "mx-36",
+        "md:mx-36",
         "justify-between"
       )}
     >
@@ -43,12 +43,12 @@ export const Nav: React.FC = () => {
           <li>SMSF</li>
         </Link>
         <Link to="/services">
-          <li>
+          <li className="leading-snug">
             Valuation<br></br>Services
           </li>
         </Link>
         <Link to="/request">
-          <li>
+          <li className="leading-snug">
             Valuation<br></br>Request
           </li>
         </Link>
