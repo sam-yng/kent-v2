@@ -1,9 +1,9 @@
 import React from "react";
 import { Header } from "../components/Header";
 import { HomeForm } from "../components/HomeForm";
-import { ServicesBox } from "../components/ServicesBox";
+import { HomeBox } from "../components/HomeBox";
 import classNames from "classnames";
-import copy from "../utils/Copy.json";
+import copy from "../utils/copy.json";
 import deal from "../assets/icons/deal.png";
 import realestate from "../assets/icons/real-estate.png";
 import contract from "../assets/icons/contract.png";
@@ -219,25 +219,25 @@ export const Home: React.FC = () => {
             "mb-6"
           )}
         >
-          <ServicesBox
+          <HomeBox
             title="Pre Purchase/Pre Sale"
             firstPara={JSON.parse(JSON.stringify(copy.home[0].para10))}
             secondPara={JSON.parse(JSON.stringify(copy.home[0].para11))}
             thirdPara={JSON.parse(JSON.stringify(copy.home[0].para12))}
           />
-          <ServicesBox
+          <HomeBox
             title="Stamp Duty"
             firstPara={JSON.parse(JSON.stringify(copy.home[0].para13))}
             secondPara={JSON.parse(JSON.stringify(copy.home[0].para14))}
             thirdPara={JSON.parse(JSON.stringify(copy.home[0].para15))}
           />
-          <ServicesBox
+          <HomeBox
             title="Captain Gains Tax"
             firstPara={JSON.parse(JSON.stringify(copy.home[0].para16))}
             secondPara={JSON.parse(JSON.stringify(copy.home[0].para17))}
             thirdPara={JSON.parse(JSON.stringify(copy.home[0].para18))}
           />
-          <ServicesBox
+          <HomeBox
             title="Probate Valuations"
             firstPara={JSON.parse(JSON.stringify(copy.home[0].para19))}
             secondPara={JSON.parse(JSON.stringify(copy.home[0].para20))}

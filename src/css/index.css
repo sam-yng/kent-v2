@@ -32,7 +32,7 @@
 
 .smsf-bg {
     background-image: url(../assets/images/SMSF-Skyline.png);
-    background-position: center;
+		background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@
 
 .service-bg {
     background-image: url(../assets/images/VS-House.png);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -17,7 +17,7 @@ export const Nav: React.FC = () => {
         "justify-between"
       )}
     >
-      <Link className="md:min-w-10" to="/">
+      <Link className="md:max-w-12" to="/">
         <img src={valuersLogo} />
       </Link>
       <ul

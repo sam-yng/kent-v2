@@ -26,9 +26,56 @@
 		}
 	],
 	"about": [],
-	"faq": [],
-	"smsf": [],
-	"services": [],
+	"faq": [
+		{
+			"question1": "How Much Does a Property Valuation Cost?",
+			"answer1": "Sydney Property valuer fee’s start at $440 for a comprehensive residential valuation. Then subject to additional charges depending upon the complexity, value of property & length of the report.",
+			"question2": "Why do you need a Property Valuer?",
+			"answer2": "There is a wide range of reasons an individual or company may require a Property Valuer. In completing a valuation from SPVA you will gain access to a legally binding  valuation that can be used for capital gains tax, stamp duty or SMSF purposes.",
+			"question3": "What does a Valuer look for when valuing a house?",
+			"answer3": "A Property valuation provided by SPVA is a legally binding contract that can be used in the court of law. Due to this SPVA is incredibly thorough in their valuation of the chosen property. Our Valuers take all factors into account when completing a valuation including but not limited to: Location, Age, Size, condition of improvements, current buying trends & land size",
+			"question4": "What is the difference between an appraisal and a valuation?",
+			"answer4": "An appraisal is usually given by a real estate agent to sell a property whereas a valuation is a legally binding document of value which can be used for probate, inter family transfer, state stamp duty, dispute between parties, legal divorce, marriage and so on.",
+			"question5": "How long does it take for a valuation?",
+			"answer5": "A valuation usually takes 24-48 hours subject to a full inspection and completion of the report.",
+			"question6": "Why should I use Sydney Property Valuers?",
+			"answer6": "The team at Sydney Property Valuers is dedicated to providing efficient & accurate valuation reports. Kent the lead principal has carried out thousands of Valuations over the last 30 years within the Greater Sydney area. The team is dedicated to providing the best possible Valuation service & we pride ourselves on customer satisfaction."
+		}
+	],
+	"smsf": [
+		{
+			"question1": "When Should You Request a Market Value Report on the Value of an Asset?",
+			"para1": "Value of the asset represents a significant proportion of the funds value.",
+			"para2": "Superannuation advisors recommend every 3 years your asset should be valued.",
+			"para3": "In need of an up to date report reflecting market value movements for the period.",
+			"heading1": "Benefits of Market Value Financial Reporting",
+			"para4": "In receiving an independent property valuation, members of Self Managed Super Funds will receive an up to date report on the market value of their property.",
+			"para5": "This consistent accounting approach by all superannuation funds will assist trustees with the investment decisions of the fund by allowing for the comparison of financial statements from subsequent periods and with other superannuation funds.",
+			"para6": "It will also assist trustees in determining whether the mix of investments in the fund is by their investment strategy. Market value reporting will also allow trustees to quickly determine the resources the fund has available for payment benefits.",
+			"question2": "Who can determine the Market Value of an Asset?",
+			"para7": " It is not intended that obtaining a market valuation should be onerous or expensive for the trustee",
+			"para8": "The use of a qualified real estate valuer through Sydney Property Valuations should be considered where the value of the asset represents a significant proportion of the fund's value or where the nature of the asset indicates that the valuation is likely to be complex or difficult.",
+			"question3": "When to Conduct Valuations?",
+			"para9": " For the purpose of financial reporting, valuations should be conducted at the funds reporting date on an annual basis, which in most cases will be the 30th of June.",
+			"para10": "Please contact us and fill out the request form for your next SMSF"
+		}
+	],
+	"services": [
+		{
+			"para1": "Stamp duty is legally required when transferring ownership between related parties or where the property is being transformed into a SMSF.",
+			"para2": "The stamp duty tax is then payable based on the valuation report provided by a registered valuer.",
+			"para3": "Sydney Property Valuers provides precise property valuations so that stamp duty payable is accurate. If you are completing a property transfer in the near future, get in contact now so that you can plan your stamp duty.",
+			"para4": "Capital Gains tax is applicable on any profits made on property past 1985. Determining market value of the property is essential in preparing to pay CGT.",
+			"para5": "Sydney Property Valuers ensures capital gains tax is minimised through an accurate and fair valuation. If you are looking to sell or have sold get a capital gains tax valuation now to better prepare you for the future.",
+			"para6": "With over 10,000 properties valued SPVA is the best positioned company to provide an accurate valuation.",
+			"para7": "An independent valuation for probate purposes provided by Sydney Property Valuers will provide a fair market value that then can be used by the executor of the will to equally and fairly distribute the assets.",
+			"para8": "Sydney Property Valuers is able to help fairly value properties of deceased family members efficiently so everyone involved receives a fair deal. Get a valuation now to avoid unnecessary legal fee's and disagreement within the family.",
+			"para9": "Probate valuations can be back-dated to date of death.",
+			"para10": "Buying or Selling a home privately hinges on knowing the property's worth, without this you can be short changed. Contact SPVA now to receive a valuation that represents the fair market value of the property.",
+			"para11": "A pre-purchase or a pre-sale valuation provides an estimate of the value of a property taking all local Sydney market factors into consideration.",
+			"para12" : "A valuation provides peace of mind and a true reflection of current market value."
+		}
+	],
 	"request": [],
 	"footer": [
 		{
