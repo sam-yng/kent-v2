@@ -54,20 +54,10 @@ export const Nav: React.FC = () => {
         </Link>
       </ul>
       <Link
-        className={classNames(
-          "hidden",
-          "ml-auto",
-          "md:block",
-          "border-2",
-          "py-2",
-          "px-4",
-          "rounded-lg",
-          "bg-sky-900",
-          "border-bg-sky-900"
-        )}
+        className={classNames("hidden", "ml-auto", "md:block")}
         to="/request"
       >
-        <Button display="font-playfairbold text-white" text="Enquire Now" />
+        <Button text="Enquire Now" />
       </Link>
     </nav>
   );

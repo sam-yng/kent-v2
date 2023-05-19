@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../components/Header";
 import { HomeForm } from "../components/HomeForm";
+import { ServicesBox } from "../components/ServicesBox";
 import classNames from "classnames";
 import copy from "../utils/Copy.json";
 import deal from "../assets/icons/deal.png";
@@ -12,6 +13,8 @@ import ppd from "../assets/logos/ppd.png";
 import rh from "../assets/logos/randh.png";
 import novak from "../assets/logos/novak.png";
 import hooker from "../assets/logos/LJ.png";
+import { Button } from "../components/Button";
+import { Link } from "react-router-dom";
 
 export const Home: React.FC = () => {
   return (
@@ -181,6 +184,66 @@ export const Home: React.FC = () => {
         </div>
         <div className="lg:w-[50%] h-[80vh]">
           <HomeForm />
+        </div>
+      </section>
+      <section className="bg-white md:px-32 text-center">
+        <h1 className="text-5xl font-playfairmedium mt-20">
+          Our <span className="text-sky-800">Valuation Services</span>
+        </h1>
+        <p
+          className={classNames(
+            "text-xl",
+            "leading-2",
+            "tracking-wider",
+            "mt-8",
+            "w-[32vw]",
+            "mx-auto",
+            "font-roboto"
+          )}
+        >
+          {JSON.parse(JSON.stringify(copy.home[0].para9))}
+        </p>
+        <Link
+          className={classNames("mx-auto", "md:block", "mt-8")}
+          to="/request"
+        >
+          <Button text="Conatact Our Team" />
+        </Link>
+        <div
+          className={classNames(
+            "grid",
+            "grid-cols-2",
+            "grid-rows-2",
+            "mt-12",
+            "font-roboto",
+            "mb-6"
+          )}
+        >
+          <ServicesBox
+            title="Pre Purchase/Pre Sale"
+            firstPara={JSON.parse(JSON.stringify(copy.home[0].para10))}
+            secondPara={JSON.parse(JSON.stringify(copy.home[0].para11))}
+            thirdPara={JSON.parse(JSON.stringify(copy.home[0].para12))}
+          />
+          <ServicesBox
+            title="Stamp Duty"
+            firstPara={JSON.parse(JSON.stringify(copy.home[0].para13))}
+            secondPara={JSON.parse(JSON.stringify(copy.home[0].para14))}
+            thirdPara={JSON.parse(JSON.stringify(copy.home[0].para15))}
+          />
+          <ServicesBox
+            title="Captain Gains Tax"
+            firstPara={JSON.parse(JSON.stringify(copy.home[0].para16))}
+            secondPara={JSON.parse(JSON.stringify(copy.home[0].para17))}
+            thirdPara={JSON.parse(JSON.stringify(copy.home[0].para18))}
+          />
+          <ServicesBox
+            title="Probate Valuations"
+            firstPara={JSON.parse(JSON.stringify(copy.home[0].para19))}
+            secondPara={JSON.parse(JSON.stringify(copy.home[0].para20))}
+            thirdPara={JSON.parse(JSON.stringify(copy.home[0].para21))}
+            fourthPara={JSON.parse(JSON.stringify(copy.home[0].para22))}
+          />
         </div>
       </section>
     </>

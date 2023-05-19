@@ -49,20 +49,8 @@ export const HomeForm: React.FC = () => {
           )}
           placeholder="Message"
         />
-        <Link
-          className={classNames(
-            "mx-auto",
-            "md:block",
-            "border-2",
-            "py-2",
-            "px-4",
-            "rounded-lg",
-            "bg-sky-900",
-            "border-bg-sky-900"
-          )}
-          to="/request"
-        >
-          <Button display="font-playfairbold text-white" text="Enquire Now" />
+        <Link className={classNames("mx-auto", "md:block")} to="/request">
+          <Button text="Enquire Now" />
         </Link>
       </div>
     </form>

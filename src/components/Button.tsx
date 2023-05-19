@@ -3,12 +3,23 @@ import React from "react";
 
 type ButtonProps = {
   text: string;
-  display?: string;
 };
 
-export const Button: React.FC<ButtonProps> = ({
-  text,
-  display,
-}: ButtonProps) => {
-  return <button className={classNames(`${display}`)}>{text}</button>;
+export const Button: React.FC<ButtonProps> = ({ text }: ButtonProps) => {
+  return (
+    <button
+      className={classNames(
+        "py-3",
+        "px-4",
+        "text-white",
+        "font-playfairbold",
+        "border-2",
+        "rounded-md",
+        "bg-sky-900",
+        "border-bg-sky-900"
+      )}
+    >
+      {text}
+    </button>
+  );
 };
